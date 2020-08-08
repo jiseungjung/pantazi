@@ -1,0 +1,23 @@
+{
+  "name": "pantazi",
+  "version": "1.0.0",
+  "description": "This the new and improved website for pantazi",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiseungjung/pantazi.git"
+  },
+  "author": "Jiseung and Jinyoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiseungjung/pantazi/issues"
+  },
+  "homepage": "https://github.com/jiseungjung/pantazi#readme"
+}
