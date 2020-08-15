@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Pantazi Renewed</title>
-    <link rel="stylesheet" href="style/common.css" />
-  </head>
-  <body>
-    <div id="wrapper">
-      <header>
-        <a class="headerTitle">
-          <img src="assets/pantaziLogo.png" alt="pantaziLogo" />
-        </a>
-      </header>
-      <div id="container"></div>
-      <footer></footer>
-    </div>
-  </body>
+    <head>
+        <title>Pantazi Renewed</title>
+        <link rel="stylesheet" href="style/common.css" />
+        <script src="js/three.js"></script>
+        <script src="js/OrbitControls.js"></script>
+        <script src="js/GLTFLoader.js"></script>
+        <script src="js/Sky.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="webgl-container"></div>
+            <header id="header">
+                <a id="header-title">
+                    <img id="header-logo" src="assets/pantaziLogo_clean.png" alt="pantaziLogo" />
+                </a>
+            </header>
+            <div id="page-container"></div>
+            <footer id="footer"></footer>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
 </html>
